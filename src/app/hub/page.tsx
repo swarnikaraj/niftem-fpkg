@@ -91,7 +91,7 @@ export default function HubPage() {
           <div className="border-l-4 border-green-600 pl-4">
             <p className="text-green-700 font-medium">Bioplastics and Their Role in Packaging</p>
             <p className="text-sm text-gray-600">
-              Bioplastics made from renewable sources are reshaping eco-packaging design. Learn how they're used in flexible wraps and rigid containers.
+              Bioplastics made from renewable sources are reshaping eco-packaging design. Learn how they&apos;re used in flexible wraps and rigid containers.
             </p>
           </div>
           <div className="border-l-4 border-green-600 pl-4">
