@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧭 App Name (Food packaging)
+NIFTEM Food Packaging Hub
 
-## Getting Started
+“A Knowledge and Innovation Portal for Food Packaging”
 
-First, run the development server:
+🗂️ Sitemap / Page Structure
+1. Home Page (/)
+Brief intro to the Food Packaging Lab & mission
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Highlights/links to:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Materials Library
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Research Papers
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Lab Videos
 
-## Learn More
+Blog
 
-To learn more about Next.js, take a look at the following resources:
+Contact Form
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Materials Library (/materials)
+Cards or table of food packaging materials
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Filters by type (plastic, glass, metal, bio-based)
 
-## Deploy on Vercel
+Details for each:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Composition
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Use-cases
+
+Benefits/limitations
+
+Downloadable PDFs
+
+3. Research Papers (/research)
+List of curated papers with filters (year, topic, author)
+
+Searchable
+
+Options:
+
+Abstract preview
+
+Download (if public)
+
+Request full-text
+
+4. Blog (/blog)
+Posts by professors, students, experts
+
+Tags: #sustainability, #recyclable, #labInsights, etc.
+
+Share & read-time indicator
+
+5. Lab Videos (/videos)
+Embed YouTube playlist or individual videos
+
+Categorized:
+
+Lab Demos
+
+Interviews
+
+Packaging Methods
+
+Optional transcript/download notes
+
+6. Packaging Laws & Standards (/standards)
+Summary of Indian (FSSAI, BIS) and global packaging rules
+
+PDF downloads
+
+Search by food type (milk, snacks, liquids, etc.)
+
+7. Student Projects (/projects)
+Showcase of B.Tech/M.Tech research
+
+Filters: Year, Topic, Supervisor
+
+Download poster/paper if available
+
+8. Ask the Expert / Forum (/ask)
+Q&A section for public/student queries
+
+Admin/moderator approval for new questions
+
+Tagged by topic
+
+9. Consultation Form (/consult)
+Fields:
+
+Name, Email, Affiliation
+
+Topic
+
+Upload problem image/PDF
+
+Sends to concerned faculty/admin via email or dashboard
+
+10. Admin Panel 
+Upload blog post
+
+Add new research paper
+
+Manage questions
+
+Manage video links (YouTube URL input)
+
+Secure via auth (NextAuth, Clerk, etc.)
+
